@@ -1,21 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
-<body>
-    <form>
-      <label> Please enter your new note title: </label>  
-      <input type='text' name='note-title' id='note-title'>
-      <br>
-      <label> Please enter your new note content: </label> 
-      <input type='text' name='note-content' id='note-content'>
-      <br>
-      <button id="click-btn">Submit note</button>
-    </form>
+<body class="h-100">
 
+  <div class="container h-100">
+    <div class="row h-100 justify-content-center align-items-center">
+        <div class="col-10 col-md-8 col-lg-6">
+    <form id = "form_note">
+      <div class="mb-3">
+        <label for="New note title" class="form-label">Please enter your new note title:</label>
+        <input type="text" class="form-control" id="note-title" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+        <label for="New note content" class="form-label">Please enter your new note content:</label>
+        <input type="text" class="form-control" id="note-content">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary" id="click-btn">Submit note</button>
+    </form>
+     </div>
+    </div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <script src='bundle.js'></script>
 </body>
 </html>
