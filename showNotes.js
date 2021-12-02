@@ -4,6 +4,4 @@ const showNotes = (callback) => {
     .then(data => callback(data)); 
     }
   
-  
-  
   module.exports = showNotes;
