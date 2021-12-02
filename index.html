@@ -6,24 +6,15 @@
   <title>Document</title>
 </head>
 <body>
-  <div>
-    <form id='new-note-title'>
+    <form>
       <label> Please enter your new note title: </label>  
-        <br>
-      <input type='text' name='new-note-title' id='new-note-title'>
+      <input type='text' name='note-title' id='note-title'>
+      <br>
+      <label> Please enter your new note content: </label> 
+      <input type='text' name='note-content' id='note-content'>
+      <br>
+      <button id="click-btn">Submit note</button>
     </form>
-  </div>
-  <div>
-    <form id='new-note-content'>
-      <label> Please enter your new note content: </label>  
-        <br>
-      <input type='text' name='new-note-content' id='new-note-content'>
-    </form>
-  </div>
-  <br>
-  <div>
-    <input id='submit-note' type='submit' value='Submit'>
-  </div>
 
   <script src='bundle.js'></script>
 </body>

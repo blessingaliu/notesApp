@@ -1,12 +1,10 @@
-const getNotes = require('./notes');
-const getNote = require('./notes');
+const makeNewNote = require('./makeNewNote');
+const showNotes = require('./showNotes');
 
-const newTitle = document.querySelector('#new-note-title')
-const newContent = document.querySelector('#new-note-content')
+const button = document.querySelector('#click-btn');
+const title = document.querySelector('#note-title');
+const content = document.querySelector('#note-content');
 
-const button = document.querySelector('#submit-note');
-
-button.addEventListener("click", () => {
-    getNote(newTitle.value, newContent.value);
+button.addEventListener('click', () => {
+  makeNewNote(title.value, content.value);
 });
-

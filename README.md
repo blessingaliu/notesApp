@@ -1,5 +1,14 @@
 # notesApp
 
+## To set up the project file 
+
+1. Run npm install express --save
+2. Run npm install jest
+3. touch index.js
+4. touch index.html 
+5. Run npm run bundle 
+
+
 ## User Stories
 
 Here are the user stories for the notes app project — they'll indicate which features the web interface should implement:

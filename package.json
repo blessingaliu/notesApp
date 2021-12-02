@@ -1,13 +1,26 @@
 {
-  "name": "frontend",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^27.4.3"
+  },
+  "name": "notesapp",
+  "description": "## To set up the project file",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "devDependencies": {},
   "scripts": {
     "build": "esbuild index.js --bundle  --outfile=bundle.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blessingaliu/notesApp.git"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blessingaliu/notesApp/issues"
+  },
+  "homepage": "https://github.com/blessingaliu/notesApp#readme"
 }
