@@ -6,7 +6,18 @@
 2. Run npm install jest
 3. touch index.js
 4. touch index.html 
-5. Run npm run bundle 
+5. Run npm run bundle
+
+</br>
+
+### To run the back end server
+```js
+node index.js
+
+npm install cors
+
+brew install jq
+```
 
 
 ## User Stories
